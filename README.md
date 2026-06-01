@@ -5,7 +5,9 @@
 ![Version](https://img.shields.io/badge/version-0.1.1-black)
 ![Built With](https://img.shields.io/badge/built%20with-Vite-646CFF)
 
-A lightweight mobile interaction framework for bottom sheets, swipe cards, touch interactions, motion UI, and app-like web experiences across phones, tablets, and desktops.
+A lightweight physics-based interaction framework for building bottom sheets, swipe cards, gesture-driven interfaces, and motion-rich app-like web experiences across phones, tablets, and desktops.
+
+Built for modern interaction design.
 
 Built for modern interaction design.
 
@@ -18,25 +20,24 @@ Most web UI frameworks are still designed around desktop interaction patterns.
 Pocket Touch is built differently.
 
 Pocket Touch focuses on:
-
 - touch-first interaction
 - gesture-driven interfaces
-- cinematic motion systems
-- app-like navigation
-- spring physics
-- momentum movement
-- elastic interaction systems
-- mobile-native interaction patterns
-- lightweight primitives
-- modern web experiences
+- physics-based motion systems
+- app-like navigation patterns
+- spring-based animations
+- momentum-driven movement
+- elastic natural interactions
+- mobile-native UX patterns
+- lightweight interaction primitives
+- modern fluid web experiences
 
 The goal is simple:
 
-Build web experiences that feel native, fluid, and alive.
+Build interfaces that feel physically real, responsive, and alive.
 
 ---
 
-# Current Features
+# Current Features (Interaction System)
 
 - Bottom sheets
 - Swipe cards
@@ -49,14 +50,14 @@ Build web experiences that feel native, fluid, and alive.
 - Motion UI demos
 - Animated interactions
 - Pointer-event interactions
-- Touch gestures
-- Velocity tracking
-- Spring physics
+- Gesture recognition system
+- Velocity tracking engine
+- Spring physics system
 - Momentum movement
 - Rubber banding
 - Overscroll resistance
-- Drag physics
-- Persistent transform state
+- Drag physics engine
+- Persistent transform state system
 - Mobile-first primitives
 - Lightweight architecture
 - CDN support
@@ -68,7 +69,7 @@ Build web experiences that feel native, fluid, and alive.
 
 # Motion Engine
 
-Pocket Touch includes a lightweight motion engine for native-feeling web interactions.
+Pocket Touch includes a lightweight physics-based motion engine for creating native-feeling interactions.
 
 Core APIs:
 
@@ -79,7 +80,7 @@ Pocket.motion()
 Pocket.drag()
 ```
 
-The motion system supports:
+Motion system supports:
 
 - velocity tracking
 - spring animations
@@ -109,7 +110,7 @@ Pocket.drag(card, {
 Core interaction chain:
 
 ```text
-drag → velocity → momentum → spring → snap
+drag → velocity → momentum → spring → settle
 ```
 
 ---
@@ -134,6 +135,11 @@ These examples demonstrate:
 - drag physics
 - spring interactions
 - touch-first UI patterns
+- physics-based motion systems
+- gesture handling patterns
+- drag and swipe interactions
+- spring-based animations
+- touch-first UI design patterns
 
 ---
 
@@ -219,13 +225,19 @@ Next:
 
 # Philosophy
 
-Pocket Touch is designed around a simple idea:
+Pocket Touch is built around one principle:
 
-The future of the web is touch-first.
+The future of the web is touch-first and physics-driven.
 
-Interfaces should move with intention, react with physicality, and feel closer to native mobile systems than traditional desktop documents.
+Interfaces should not feel static or digital.
 
-Pocket Touch provides lightweight interaction primitives that help developers build immersive web experiences without heavyweight frameworks.
+They should feel like real objects with:
+- weight
+- resistance
+- momentum
+- natural motion
+- 
+Pocket Touch provides the primitives to build these experiences without heavy frameworks.
 
 ---
 
